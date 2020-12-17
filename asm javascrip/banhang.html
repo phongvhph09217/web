@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="C5.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.4.1.min.js"></script>
+    
+    <script>
+      function hienthi1(){
+          var ip9 = document.getElementById('ip9');
+          var ttip9 = 23*ip9.value;
+          document.getElementById('ttip9').innerText = +ttip9;
+      }
+      function hienthi2(){
+          var ss = document.getElementById('ss');
+          var ttss = 43*ss.value;
+          document.getElementById('ttss').innerText = +ttss;
+      }
+      function hienthi3(){
+          var nokia = document.getElementById('nokia');
+          var ttnokia = 75*nokia.value;
+          document.getElementById('ttnokia').innerText = +ttnokia;
+      }
+      function hienthi4(){
+          var sony = document.getElementById('sony');
+          var ttsony = 69*sony.value;
+          document.getElementById('ttsony').innerText = +ttsony;
+      }
+      function hienthi5(){
+          var moto = document.getElementById('moto');
+          var ttmoto = 18*moto.value;
+          document.getElementById('ttmoto').innerText = +ttmoto;
+      }
+      function hienthi6(){
+          var oppo = document.getElementById('oppo');
+          var ttoppo = 82*oppo.value;
+          document.getElementById('ttoppo').innerText = +ttoppo;
+      }
+      function hienthi7(){
+          var bp = document.getElementById('bp');
+          var ttbp = 33*bp.value;
+          document.getElementById('ttbp').innerText = +ttbp;
+      }
+      function hienthi8(){
+          var kt = document.getElementById('kt');
+          var ttkt = 78*bp.value;
+          document.getElementById('ttkt').innerText = +ttkt;
+      }
+      function tongtien(){
+          var ip9 = document.getElementById('ip9').value;
+          var ss = document.getElementById('ss').value;
+          var nokia = document.getElementById('nokia').value;
+          var sony = document.getElementById('sony').value;
+          var moto = document.getElementById('moto').value;
+          var oppo = document.getElementById('oppo').value;
+          var bp = document.getElementById('bp').value;
+          var kt = document.getElementById('kt').value;
+      var thanhtien = 23*ip9 + 43*ss + 75*nokia + 69*moto + 18*sony + 82*oppo + 33*bp + 78*kt;
+      document.getElementById('tongtien').innerText = +thanhtien
+      }
+    </script>
+    <script src="jquery-3.4.1.min.js">
+    </script>
+    <script>
+    $(document).ready(function(){
+        $('#gia').change(function(){
+            var val = $(this).val();
+            $('#sp tr').each(function(index,tr){
+                var price = $(tr).find('td:eq(2)').text();
+                if(val ==0){
+                    $('tr').show();
+                }else if(val==1 && price<=50){
+                    $('.muc1').show();
+                    $('.muc2').hide();
+                }else if(val==2 && price>=55 && price<=100){
+                    $('.muc1').hide();
+                    $('.muc2').show();
+                }
+            })
+        })
+    })
+    </script>
+</head>
+<body>
+        <section class="kien">
+                <a href="Trang chu.html"><img src="anh/now.vn (1).png"/></a>
+        </section>
+    <section class="khung">
+    <h2>Bán Hàng</h2>
+    <select style="margin-top: 10px;" name="" id="gia" class="prince">
+        <option value="0">mức giá</option>
+        <option value="1">0>>50</option>
+        <option value="2">55>>100</option>
+    </select>
+    <hr>
+    <h3>
+    <div class="bang">
+        <table border="5px" id="sp" onclick="tongtien()">
+        <tr>
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi()">
+            </td>
+            <td>Hàng Hóa</td>
+            <td>Đơn Giá</td>
+            <td>Số Lượng</td>
+            <td>Thành Tiền</td>
+        </tr>
+        <tr class="muc1">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi1()">
+            </td>
+            <td>X10 Nem Chua</td>
+            <td>23</td>
+            <td><input type="number" id="ip9"></td>
+            <td id="ttip9"></td>
+        </tr>
+        <tr class="muc1">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi2()">
+            </td>
+            <td>Cơm Thập Cập</td>
+            <td>43</td>
+            <td><input type="number" id="ss"></td>
+            <td id="ttss"></td>
+        </tr>
+        <tr class="muc2">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi3()">
+            </td>
+            <td>Trà Sữa GONGCHA</td>
+            <td>75</td>
+            <td><input type="number" id="nokia"></td>
+            <td id="ttnokia"></td>
+        </tr>
+        <tr class="muc2">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi4()">
+            </td>
+            <td>Trà Sữa TOCOTOCO</td>
+            <td>69</td>
+            <td><input type="number" id="sony"></td>
+            <td id="ttsony"></td>
+        </tr>
+        <tr class="muc1">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi5()">
+            </td>
+            <td>Cánh Gà Chiên</td>
+            <td>18</td>
+            <td><input type="number" id="moto"></td>
+            <td id="ttmoto"></td>
+        </tr>
+        <tr class="muc2">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi6()">
+            </td>
+            <td>Trà Sữa GOKY-TEA</td>
+            <td>82</td>
+            <td><input type="number" id="oppo"></td>
+            <td id="ttoppo"></td>
+        </tr>
+        <tr class="muc1">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi7()">
+            </td>
+            <td>Khoai Tây Chiên</td>
+            <td>33</td>
+            <td><input type="number" id="bp"></td>
+            <td id="ttbp"></td>
+        </tr>
+        <tr class="muc2">
+            <td>
+                <input type="checkbox" id="checkbox" onclick="hienthi8()">
+            </td>
+            <td>Khoai Tây & Nem Chua</td>
+            <td>78</td>
+            <td><input type="number" id="kt"></td>
+            <td id="ttkt"></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: center;">  
+                Tổng Tiền
+            </td>
+            <td id="tongtien"></td>
+        </tr>
+        </table>
+    </div>
+</h3>
+</body>
+</html>

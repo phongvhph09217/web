@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trang con 2</title>
+<link href="C2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<section id="kien1">
+     <header id="kien3">
+      <img src="anh/now.vn (1).png" width="200" height="50"/>
+      <form>
+         <input id="tk" type="search" placeholder="Tìm Kiếm"/>
+         <input id="nut" type="submit" value="Tìm Kiếm"/>
+         <a href="Lien He.html"><input id="dk" type="button" value="Liên Hệ"/></a>
+         <a href="Lien He.html"><input id="dn" type="button" value="Đăng Nhập"/></a>
+      </form>
+     </header>
+    <nav id="kien2">
+      <ul> 
+           <li><a href="Trang chu.html">Trang Chủ</a></li>
+           <li><a href="Đ2.html">Đặt Bàn</a></li>
+           <li><a href="Đ3.html">Đồ Giảm Giá</a></li>
+           <li><a href="Đ1.html">Bánh Mì</a></li>
+           <li><a href="Đ1.html">Nước Uống</a></li>
+           <li><a href="Đ1.html">Các Loại Đồ Ăn Khác</a></li> 
+      </ul>
+      <p id="timer"></p>
+      <script type="text/javascript">
+   var p = document.getElementById('timer');
+     function checkTimer(t){
+		 if(t<10){
+			 t = "0" +t;
+		 }
+		 return t;
+	 }
+   
+    function timer(){
+		var d = new Date();
+		var h =d.getHours();
+		var m =d.getMinutes();
+		var s =d.getSeconds();
+		
+		h = checkTimer(h);
+		m = checkTimer(m);
+		s = checkTimer(s);
+		
+		p.innerHTML = h +":"+ m +":"+ s;
+	}
+	setInterval(function(){timer()},1000);
+       </script>
+    </nav>
+    <article id="kien5">
+    <aside id="left">
+               <aside id="khung">
+             <h4>ĐỊA ĐIỂM VỪA ĐƯỢC ĐẶT</h4>
+               </aside>
+               <ul>
+                   <li><a href="#">Bàn Số 1- Liên Hà</a></li>
+                   <li><a href="#">Bàn Số 3- Liên Hồng</a></li>
+                   <li><a href="#">Bàn Số 23- Đồng Tháp</a></li>
+                   <li><a href="#">Bàn Số 4- Liên Trung</a></li>
+                   <li><a href="#">Bàn Số 9- Liên Hà</a></li>
+                   <li><a href="#">Bàn Số 8- Hạ Mỗ</a></li>
+                   <li><a href="#">Bàn Số 32- Thọ Xuân</a></li>
+                   <li><a href="#">Bàn Số 21- Thượng Mỗ</a></li>
+                   <li><a href="#">Bàn Số 10- Thọ An</a></li>
+                   <li><a href="#">Bàn Số 21- Liên Hồng</a></li>
+                   <li><a href="#">Bàn Số 7- Song Phượng</a></li>
+                   <li><a href="#">Bàn Số 12- Thị Trấn Phùng</a></li>
+                   <li><a href="#">Bàn Số 18- Liên Hồng</a></li>
+                   <li><a href="#">Bàn Số 21- Đồng Tháp</a></li>
+               </ul>
+        
+        </aside>
+        <aside id="right">
+             <nav id="kien8">
+                   <nav id="kien9">
+                     <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-em-thuy-nem-chua-nuong-ha-noi-140610034936.jpg">
+                     <h5> X10 Nem Chua</h5><hr>
+                     <h4>23.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-foody-su-an-ngon-com.jpg">
+                     <h5> Cơm Thập Cập</h5><hr>
+                     <h4>43.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+             
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-gongcha-jpg-805-636162011618326369.jpg">
+                     <h5> Trà Sữa GONGCHA</h5><hr>
+                     <h4>73.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-to-c-jpg-197-636354751043012703.jpg">
+                     <h5> Trà Sữa TOCOTOCO</h5><hr>
+                     <h4>69.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-upload-api-foody-mobile-28277110_16433044024-180312110738.jpg">
+                     <h5> Cánh Gà Chiên</h5><hr>
+                     <h4>18.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-upload-api-foody-mobile-gokyavar-jpg-180329141754.jpg">
+                     <h5> Trà Sữa GOKY-TEA</h5><hr>
+                     <h4>82.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-12974524_61128574236-212-636052285704816569.jpg">
+                     <h5> Khoai Tây Chiên</h5><hr>
+                     <h4>33.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             <nav id="kien8">
+                   <nav id="kien9">
+                   <nav class="noidung">
+                         <input id="dh" type="button" value="Đặt Bàn">
+                     </nav>
+                     <img src="anh/foody-mobile-an-vat-jpg-540-636227542436236448.jpg">
+                     <h5>Khoai Tây & Nem Chua</h5><hr>
+                     <h4>78.000 VNĐ</h4>
+                   </nav>
+             </nav>
+             
+             
+        </aside>
+    </article>
+    <article id="kien6">
+         <h2>Đơn hàng của bạn sẽ được bảo quản như thế nào?</h2>
+         <p>Now sẽ bảo quản đơn của bạn bằng túi & thùng để chống nắng mưa, giữ nhiệt... trên đường đi một cách tốt nhất.</p>
+         <img src="anh/Box-food-preservation-footer.jpg" width="800" height="160"/>
+    </article>
+    <article id="kien7">
+    <aside id="trai">
+         <h4>Công ty</h4><br>
+      <p>Giới thiệu</p>
+      <p>Quy trình đặt món</p>
+      <p>Hướng dẫn thanh toán</p>
+      <p>Quy chế</p>
+      <p>Bảo mật thông tin</p>
+      <p>Giải quyết khiếu nại</p>
+      <p>Liên hệ</p>
+     <p>Dành cho công ty</p>
+      <p>Hợp tác nhân viên giao nhận</p>
+      <p>Ứng dụng dành cho hàng quán</p>
+    </aside>
+    <aside id="mid">
+     <img src="anh/Logo-Nowvn-Elip.png" width="80" height="80"/><br><br>
+     © 2018 Now - A Foody Corporation
+     </aside>
+    <aside id="phai">
+               <h4>Địa chỉ</h4><br><br>
+        <p>Công Ty Cổ Phần Foody</p>
+        <p>Lầu 8, Tòa nhà Jabes 1,</p>
+        <p>244 Cống Quỳnh, P. Phạm Ngũ Lão, Quận 1, Tp.HCM</p>
+        <p>GP ĐKKD: 0311828036</p>
+        <p>do sở Kế hoạch và Đầu Tư TPHCM cấp ngày 11/06/2012</p><br>
+        <img src="anh/gov_seals.jpg" width="150" height="56"/>
+    </aside>
+    </article>
+</section>
+</body>
+</html>

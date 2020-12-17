@@ -1,0 +1,29 @@
+
+.kien{
+	height:120px;
+	background:#FFF;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:2px solid gray;
+}
+.khung{
+    text-align: center;
+	height:650px;
+	width:1100px;
+	background:url(anh/anh6.jpg);
+	margin:auto;
+	padding-top:50px;
+}
+.bang{
+	   font-size: 20px;
+	   color: rgb(22, 18, 5);
+	   float: left;
+        margin-left: 240px;
+        text-align: center;
+        margin-top: 20px;
+}
+#sp{
+	float: left;
+	height: 450px;
+	box-shadow: 0 0 5px rgb(68, 39, 39);
+}

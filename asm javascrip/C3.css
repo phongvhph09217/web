@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; box-sizing:border-box}
+#kien{
+	height:120px;
+	background:#FFF;
+	text-align:center;
+	padding-top:20px;
+	border-bottom:2px solid gray;
+}
+
+#kien1{
+  	width:400px;
+	height:450px;
+	padding:10px 15px;
+	font-weight:bold;
+	color:#000;
+	font-size:16px;
+	float:left;
+	
+}
+.kien2{
+	margin-left: 10px;
+	margin-top: 10px ;
+	float:right;
+	width:240px;
+	height:35px;
+	border-radius:7px;
+}
+.kien3{
+	width:181px;
+	height:40px;
+	margin:10px 0px;
+	background:#0F0;
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+}
+.kien4{
+	width:367px;
+	height:40px;
+	margin:4px 0;
+	background:#039;
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+}
+.kien5{
+	width:367px;
+	height:40px;
+	margin:4px 0;
+	background:#F00;
+	color:#000;
+	font-weight:bold;
+	font-size:16px;
+}
+.kien3:hover{
+	background:#F00;
+}
+#kien1 h1{
+	text-align:center;
+	margin-bottom:10px;
+}
+#khung{
+	height:650px;
+	width:1200px;
+	background:url(anh/30704975_2028933267430054_2920730116654891008_n.png);
+	margin:auto;
+	padding:75px 0px 0px 650px;
+}
+#kien6{
+	float:right;
+	width:400px;
+	height:450px;
+	padding:10px 15px;
+	font-weight:bold;
+	font-size:16px;
+}
+#kien1 p{
+	margin-top:8px;
+	float:left;
+}
+body{
+	background:#CCC;
+}
+.kien7{
+	margin-top: 10px;
+	float:right;
+	width:240px;
+	height:60px;
+	border-radius:7px;
+}

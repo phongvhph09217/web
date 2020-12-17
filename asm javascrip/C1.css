@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; box-sizing:border-box}
+#kien1{
+	margin:auto;
+	width:1000px;
+	height:2390px;
+	box-shadow:0 0 10px gray;
+	background:#CCC;
+}
+#kien2{
+	width:1000px;
+	height:40px;
+	background:#0F0;
+	padding:0px 50px;
+	
+}
+#kien3{
+	width:1000px;
+	height:60px;
+	background:#FFF;
+	padding:5px 35px;
+}
+#kien4{
+	width:900px;
+	height:400px;
+	background:#FFF;
+	margin:25px 50px 15px 50px;
+	border:1px solid gray;
+}
+#kien5{
+	width:900px;
+	height:400px;
+	background:#FFF;
+	margin:15px 50px 25px 50px;
+	border:1px solid gray;
+}
+#kien6{
+	width:900px;
+	height:260px;
+	background:#FFF;
+	margin:25px 50px;
+	box-shadow:0 0 5px gray;
+	padding:20px 70px;
+}
+#kien7{
+	width:900px;
+	height:220px;
+	margin:25px 50px;
+	padding:0 50px;
+}
+#kien2 ul li{
+	float:left;
+	list-style:none;
+	line-height:40px;
+}
+#kien2 ul li a{
+	color:#000;
+	text-decoration:none;
+	margin-right:20px;
+	margin-left:20px;
+}
+#kien2 h4{
+	color:#000;
+	float:right;
+	line-height:40px;
+}
+#kien2 ul li:hover{
+	background:#F00;
+}
+form{
+	float:right;
+	margin:10px;
+}
+#tk{
+	width:300px;
+	height:30px;
+}
+#nut{
+	width:75px;
+	height:30px;
+	border-radius:25px;
+	background:#000;
+	color:#FFF;
+	margin-right:30px;
+}
+#dk{
+	width:75px;
+	background:#F00;
+	color:#FFF;
+	height:30px;
+}
+#dn{
+	width:75px;
+	background:#FFF;
+	color:#000;
+	height:30px;
+}
+#dn:hover{
+	background:#F00;
+	color:#FFF;
+}
+#left{
+	width:250px;
+	height:398px;
+	float:left;
+	background:#FFF;
+	padding:5px 10px;
+	border-right:1px dashed #999999;
+}
+#right{
+	width:648px;
+	height:398px;
+	float:left;
+	padding:9px 14px;
+}
+#khung{
+	width:230px;
+	height:22px;
+	border-bottom:1px solid #000;
+}
+#left ul li{
+	list-style:none;
+	line-height:33px;
+	color:#666;
+}
+#left ul li a{
+	margin-right:30px;
+	text-decoration:none;
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#000;
+}
+#left ul li a:hover{
+	color:#F00;
+}
+#left ul li h5{
+	float:right;
+	margin-right:15px;
+}
+#kien8{
+	float:left;
+	width:25%;
+}
+#kien9{
+	width:150px;
+	height:180px;
+	background:#FFF;
+	margin:5px 2px;
+	text-align:center;
+	border:1px solid gray;
+	position:relative;
+}
+#kien9 img{
+	width:148px;
+	height:120px;
+}
+#kien9 h4{
+	margin-top:8px;
+	color:#F00;
+}
+#kien9 h5{
+	margin-top:4px;
+}
+#kien9:hover{
+	box-shadow:0 0 5px gray;
+}
+#left ul li:hover{
+	background:#CCC;
+}
+#kien6 h2{
+	margin-bottom:10px;
+}
+#trai{
+	width:200px;
+	float:left;
+	height:220px;
+}
+#mid{
+	width:200px;
+	float:left;
+	height:220px;
+	text-align:center;
+}
+#phai{
+	width:400px;
+	float:right;
+	height:220px;
+}
+#phai h4{
+	float:right;
+}
+#phai p{
+	float:right;
+}
+#phai img{
+	float:right;
+}
+#like{
+	width:900px;
+	height:470px;
+	margin:15px 50px;
+	text-align:center;
+	font-size:32px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+}
+#be{
+	width:70px;
+	height:35px;
+	background:#000;
+	color:#FFF;
+}
+#be:hover{
+	background:#F00;
+}
+#noidung{
+	height:370px;
+	width:900px;
+	background:#FFF;
+	margin-left:50px;
+	box-shadow:0 0 5px gray;
+}
+#timer{
+	line-height:40px;
+	color:#F00;
+	font-size:22px;
+	float:right;
+	margin-right:20px;
+	font-weight:bold;
+}
+.noidung{
+	transition:0.5s;
+	width:100%;
+	height:0;
+	position:absolute;
+	top:0;
+	left:0;
+	background: rgba(0,0,0, .4);
+	overflow:hidden;
+}
+#kien9:hover .noidung{
+	height:145px;
+}
+#dh{
+	width:100px;
+	height:30px;
+	background:#000;
+	color:#FFF;
+	margin-top:50px;
+	font-weight:bold;
+	border-radius:10px;
+	border:1px solid #0FF;
+}
+#dh:hover{
+	background:#F00;
+}
